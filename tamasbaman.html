@@ -1,0 +1,83 @@
+<html dir="rtl" lang="fa">
+    <head>
+      <meta charset="UTF-8">  
+      <style>  
+        ul{
+            padding : 0;
+            margin : 0;
+            list-style-type : none;
+            background-color:brown;
+            overflow: hidden;
+        }
+        li a {
+            text-decoration: none;
+            display: block;
+            padding: 8px;
+            color:gold;
+        }
+        li a:hover {
+            background-color:blanchedalmond;
+        }
+        footer{
+            margin-bottom: 0px;
+            background-color :azure;
+            padding:10px;
+            font-family:tahoma;
+            font-size:14px;
+        }
+
+        footer a{ color:red; }
+        footer a:hover{ color:blue; }
+      </style>
+      <script type="text/javascript">
+         function confirmm(){
+            let isok = confirm("آیا از ارسال فرم اطمینان دارید؟");
+            if(isok) alert(".عملیات شما موفقیت آمیز بود");
+         }
+      </script> 
+    </head>
+    <body>
+        <ul>
+            <li style="float: right"><a href="/index.html"> معرفی</a></li>
+            <li style="float: right"><a href="/maharatha.html"> مهارت و توانمندی ها</a></li> 
+            <li style="float: right"><a href="/eftekharat.html"> افتخارات و دستاوردها</a></li>
+            <li style="float: left"><a href="/tamasbaman.html"> تماس با من</a></li> 
+        </ul>
+        <br><h1> ارتباط با من</h1>
+        <hr style="width: 200px; margin-right: 0px;">
+        <br>
+        <form>
+           <label>نام:</label>
+           <input type="text" style="width: 100px;">
+           <br><br><label>نام خانوادگی:</label>   
+           <input type="text" style="width: 100px;">
+           <br><br><label>ایمیل:</label>
+           <input type="text">
+           <br><br><label>پیام شما:</label>         
+           <input type="text" style="width: 400px; height: 200px;">
+           <br><br><input type="submit" value="ارسال" onclick="confirmm()">
+        </form>
+       
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <footer>
+            <div style="float: right;">
+               <h1 style="font-size: medium;"> اطلاعات تماس:</h1>
+               <font>ایمیل:</font> <font>Amirmohamad.sabzi007@gmail.com</font><br>
+               <h1 style="font-size: medium;"> در اینجا مرا دنبال کنید:</h1>
+               <ol>
+                  <hi><a href="https://github.com/SbziAM">https://github.com/SbziAM</a></hi><br>
+                  <hi><a href="https://stackoverflow.com/users/10646792/amirmohammad-sabzi">https://stackoverflow.com/users/10646792/amirmohammad-sabzi</a></hi><br>
+                  <hi><a href="https://codeforces.com/profile/AS.82">https://codeforces.com/profile/AS.82</a></hi><br>
+               </ol>              
+            </div>  
+           <div style="float: left;">
+                <h1 style="font-size: medium;">لینک های مهم:</h1>
+                <ol>
+                    <hi><a href="https://github.com/">https://github.com/</a></hi><br>
+                    <hi><a href="https://stackoverflow.com/">https://stackoverflow.com/</a></hi><br>
+                    <hi><a href="https://codeforces.com/">https://codeforces.com/</a></hi><br>
+                </ol>
+           </div>
+        </footer>
+    </body>
+</html>
